@@ -702,7 +702,7 @@ footer::before {
   margin-bottom: 2rem;
   z-index: 0;
   position: relative;
-  left: 8%;
+  padding: 0 2rem;
   text-transform: uppercase;
 }
 
@@ -711,7 +711,7 @@ footer::before {
   flex-direction: column;
   align-items: flex-start;
   position: relative;
-  left: 8%;
+  padding: 0 2rem;
 }
 
 #contact-flex a,
@@ -1078,7 +1078,6 @@ footer::before {
 
   #contact-us > h2:first-of-type {
     padding: 0 4rem;
-    left: 0;
     margin-bottom: 2rem;
   }
 
@@ -1087,8 +1086,8 @@ footer::before {
   }
 
   #contact-flex {
-    left: 0;
     width: 40%;
+    padding: 0;
   }
 
   #location .map-container {
