@@ -339,18 +339,18 @@ header {
 
 .menu-button {
   display: inline-block;
-  padding: .5rem 1rem;
-  border: 2px solid #830000;
+  padding: 1rem;
   background-color: #830000;
   color: #fff;
   text-decoration: none;
   border-radius: 1px;
   z-index: 1000;
+  margin-top: 2rem;
 }
 
 .menu-button:hover {
-  background-color: #830000;
-  color: #ffffff;
+  background-color: #fff;
+  color: #830000;
 }
 
 /* about section */
@@ -483,7 +483,7 @@ header {
   justify-items: center;
   grid-template-columns: repeat(2, 1fr);
   grid-gap: 2%;
-  padding: 2em;
+  padding: 0 2em;
   z-index: 1;
 }
 
@@ -805,7 +805,7 @@ footer::before {
   font-size: 1.5rem;
   font-weight: bold;
   color: #000;
-  margin: 4rem 0;
+  margin: 5rem 0 3rem 0;
 }
 
 #menu-sections ul {
@@ -842,10 +842,12 @@ footer::before {
 }
 
 .menu-item h3 {
-  font-size: .75rem;
+  font-size: 1rem;
   font-family: "Libre Franklin", sans-serif;
   font-weight: bold;
   color: #000;
+  text-transform: uppercase;
+  margin-bottom: .5rem;
 }
 
 .menu-item p {
@@ -853,6 +855,10 @@ footer::before {
   font-family: "Libre Franklin", sans-serif;
   color: #000;
   line-height: 1.5;
+}
+
+.menu-item-price {
+  margin-top: .2rem;
 }
 
 .section-note {
@@ -1011,12 +1017,11 @@ footer::before {
   .menu-specials-sides-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20%;
   }
 
   .menu-item {
-    min-width: 50%;
-    /* Set a minimum width to ensure consistent widths */
-    max-width: 70%;
+    width: 100%;
   }
 
   #main-menu {
