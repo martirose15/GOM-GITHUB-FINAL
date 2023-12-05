@@ -1111,4 +1111,8 @@ footer::before {
     padding-bottom: 1.9rem;
   }
 
+  #banner {
+    padding: 6rem 1rem;
+  }
+
 }
