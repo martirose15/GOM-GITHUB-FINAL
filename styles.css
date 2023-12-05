@@ -500,7 +500,7 @@ header {
 /* Banner */
 #banner {
   background-color: #000;
-  padding: 4rem 1rem;
+  padding: 2rem 1rem;
 }
 
 #banner h2 a {
@@ -1042,6 +1042,10 @@ footer::before {
 
   #menu-sections ul {
     background-position: -180px 0;
+  }
+
+  #banner {
+    padding: 4rem 1rem;
   }
 }
 
