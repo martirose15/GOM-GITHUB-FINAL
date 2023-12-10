@@ -1010,6 +1010,10 @@ footer::before {
   }
   }
 
+  #about {
+    background-position: 0;
+  }
+
 
 @media (min-width: 768px) {
   html {
