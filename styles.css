@@ -950,6 +950,11 @@ footer::before {
     height: 150vw;
     background-position: -200px 0;
   }
+
+  #specials-content {
+    align-items: flex-start;
+    text-align: left;
+  }
 }
 
 @media (max-width: 345px) {
@@ -1130,5 +1135,4 @@ footer::before {
   #banner {
     padding: 6rem 1rem;
   }
-
 }
